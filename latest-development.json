@@ -12,7 +12,7 @@
   "updaterContractVersion": 3,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
-  "sourceRepositoryCommit": "8dc72a4efab5226ec73a434b2beeca1a60b4237b",
+  "sourceRepositoryCommit": "785ecbae50dfd86f56935bdd8c39c9f56eb4b71e",
   "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
   "commercialSourcePublishedPublicly": false,
   "trial": {
@@ -32,8 +32,8 @@
     "updateResetsTrial": false
   },
   "candidateArtifacts": {
-    "stagedExeSha256": "c18931ebb0d86c23f83b104c47ba5a7ebd9211ff7d69fd837724a368d02ca301",
-    "installerSha256": "72076ad83aedfc55dc126c9c1dd98e018389e1fb934af40a30ae42490099ed89"
+    "stagedExeSha256": "48f34536718847fd28d1b27e32a62019bd8974f5ce4e6bf7e4759e7b1c6e587b",
+    "installerSha256": "6502a3e7947de6e5510e4762afcc968bedae0aacf0151bee504196648b0378d5"
   },
   "nextStage": "verify installed trial and update lifecycle, publish the exact installer as a MediaDock-Release GitHub Release asset, then activate latest-stable.json last",
   "notes": "Development metadata only. It never triggers customer updates."
