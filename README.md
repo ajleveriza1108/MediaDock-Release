@@ -1,26 +1,25 @@
-# MediaDock Release
+# MediaDock Release Repository
 
-Public release/update metadata for **MediaDock**.
+Public release/update metadata for MediaDock.
 
 ## Current development version
 
-**R1.6.19 — Dual-Mode Updater + Trial Build Candidate**
+R1.6.19 - Installer-Only Release Updater
 
-R1.6.19 supports both installed and portable update artifacts.
+Status: Windows installer candidate built and staged-smoke verified. Installed update-cycle verification and stable artifact publication remain gated.
 
-The stable updater pointer remains inactive until the exact installer and portable ZIP are hosted and the Windows update cycle is verified.
+## Customer update source
 
-## Stable updater schema v2
+Installed customer builds read only:
 
-Customer builds read only latest-stable.json.
+https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json
 
-The stable manifest contains both:
-- installerUrl / installerSha256
-- portableUrl / portableSha256
+latest-development.json is informational only.
 
-Installed copies select the installer.
-Portable copies select the portable ZIP.
+## Distribution policy
 
-latest-development.json is informational only and cannot trigger customer auto-update.
+Beginning with R1.6.19, MediaDock uses one customer artifact: the Windows installer EXE.
 
-This repository must remain free of private commercial source, developer reset tools, keys, secrets, customer/device data, runtime state, logs, cookies, and build caches.
+Stable installers belong in this repository's GitHub Releases assets. The stable manifest must remain inactive until the exact hosted installer passes runtime/update-cycle verification and its SHA-256 is confirmed.
+
+This repository must remain free of private commercial source, reset utilities, key inventories, secrets, customer/device records, logs, cookies, runtime state, or build caches.

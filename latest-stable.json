@@ -1,18 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "product": "MediaDock",
   "version": "R1.6.19",
   "channel": "stable",
   "stable": false,
   "windowsRuntimeVerified": false,
   "installerPublished": false,
-  "portablePublished": false,
   "updaterPublished": false,
   "installerUrl": null,
   "installerSha256": null,
-  "portableUrl": null,
-  "portableSha256": null,
   "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.19.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "Inactive fail-closed dual-artifact stable pointer. It must be moved only after both hosted artifacts and both update modes pass verification."
+  "notes": "Inactive fail-closed installer-only stable pointer. Customer updaters ignore this until the release gate is completed."
 }
