@@ -4,18 +4,18 @@ Public release/update metadata for **MediaDock**.
 
 ## Current development version
 
-**R1.6.15 — Internal Media Capture Streaming**
+**R1.6.17 — Trial Queue Workflow Repair**
 
-Status: **development / Windows runtime verification pending**
+Status: **development / installer-runtime verification pending**
 
-No production installer is being published yet. Licensing/key activation is the next implementation stage, and the installer/updater remains intentionally postponed until that stage is integrated and tested.
+R1.6.17 is not yet a stable installer release. The next stage is a guarded Windows installer build/install/runtime test.
 
-This repository must remain free of:
-
-- private source;
+The public release repository must remain free of:
+- current private/commercial source;
+- developer trial-reset tools;
 - license-key inventories;
-- Payhip/backend secrets;
+- Payhip / Google Apps Script secrets;
 - customer or activation/device records;
 - logs, cookies, runtime state, build caches, or developer credentials.
 
-When production releases begin, stable updater metadata must be moved only after the exact installer/update artifact and checksum are independently verified.
+A production installer or stable updater pointer must be published only after the exact installer artifact, checksum, install/uninstall behavior, trial persistence, and runtime smoke tests are independently verified.

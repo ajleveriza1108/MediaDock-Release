@@ -1,15 +1,21 @@
 {
   "product": "MediaDock",
-  "version": "R1.6.15",
+  "version": "R1.6.17",
   "channel": "development",
   "stable": false,
   "windowsRuntimeVerified": false,
   "installerPublished": false,
   "updaterPublished": false,
-  "packageSha256": "926786d101c900f4d1cea2bd7cddb4643ee3493a7e7c1c9fae5c9a34f47c5f01",
+  "packageSha256": "f406b510f3f0b104ba96b58cc82e649094d5e77f3faac0e708fd70d08a52a40b",
   "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
   "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
   "commercialSourcePublishedPublicly": false,
-  "nextStage": "license-key activation: 1 key / up to 3 Windows devices",
-  "notes": "Development metadata only. No installer or stable updater pointer until licensing and Windows runtime verification pass."
+  "trial": {
+    "videoSuccessfulOutputs": 5,
+    "mp3SuccessfulOutputs": 5,
+    "streamAvailableWhileUnlicensed": false,
+    "convertAvailableWhileUnlicensed": false
+  },
+  "nextStage": "guarded Windows installer build/install/runtime test",
+  "notes": "Development metadata only. No installer or stable updater pointer is published yet."
 }
