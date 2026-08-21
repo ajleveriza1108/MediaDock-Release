@@ -4,21 +4,23 @@ Public release/update metadata for **MediaDock**.
 
 ## Current development version
 
-**R1.6.18 — Release-Repo Updater + Trial Build Candidate**
+**R1.6.19 — Dual-Mode Updater + Trial Build Candidate**
 
-The R1.6.18 Windows candidate has been built and staged-smoke verified. It remains **development**, because installed update-cycle verification and hosted installer publication are still gated.
+R1.6.19 supports both installed and portable update artifacts.
 
-## Stable updater rule
+The stable updater pointer remains inactive until the exact installer and portable ZIP are hosted and the Windows update cycle is verified.
+
+## Stable updater schema v2
 
 Customer builds read only latest-stable.json.
 
-The stable pointer must remain inactive until the exact installer:
+The stable manifest contains both:
+- installerUrl / installerSha256
+- portableUrl / portableSha256
 
-- is built;
-- passes installed runtime/trial verification;
-- is uploaded as a MediaDock-Release GitHub Release asset;
-- has an independently verified SHA-256.
+Installed copies select the installer.
+Portable copies select the portable ZIP.
 
-latest-development.json is informational and never triggers customer auto-update.
+latest-development.json is informational only and cannot trigger customer auto-update.
 
-This repository must remain free of private commercial source, trial-reset tools, key inventories, secrets, customer/device records, logs, cookies, runtime state, or build caches.
+This repository must remain free of private commercial source, developer reset tools, keys, secrets, customer/device data, runtime state, logs, cookies, and build caches.

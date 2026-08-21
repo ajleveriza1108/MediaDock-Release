@@ -1,30 +1,34 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "product": "MediaDock",
-  "version": "R1.6.18",
+  "version": "R1.6.19",
   "channel": "development",
   "stable": false,
   "windowsBuildVerified": true,
   "windowsRuntimeVerified": false,
   "installerPublished": false,
+  "portablePublished": false,
   "updaterPublished": false,
-  "updaterContractVersion": 1,
+  "updaterContractVersion": 2,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
-  "sourceRepositoryCommit": "215c5baa6723c0c10bd13830056765c349504eda",
+  "sourceRepositoryCommit": "601f7bbd34283cfd90424b5b034c6e5bf38ac708",
   "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
   "commercialSourcePublishedPublicly": false,
   "trial": {
     "videoSuccessfulOutputs": 5,
     "mp3SuccessfulOutputs": 5,
     "streamAvailableWhileUnlicensed": false,
-    "convertAvailableWhileUnlicensed": false
+    "convertAvailableWhileUnlicensed": false,
+    "updateResetsTrial": false,
+    "licensePurchaseAvailableBeforeTrialExhaustion": true,
+    "licenseActivationAvailableBeforeTrialExhaustion": true
   },
   "candidateArtifacts": {
-    "stagedExeSha256": "5e31fc73ff7b92bfebf360fa815bac09e74c4fb519ed0293400b35077d6b9e8a",
-    "installerSha256": "75065779a9ab3fb10dceb13c67b29788133076a190caf27a9eb0aa2c68c40ec8",
-    "portableZipSha256": "b5a1eecb845c6250eeb5954785968564923492530f750c949c369b41fd90078d"
+    "stagedExeSha256": "c4be3920e1f44b02a2aba6142c3952e5bd3da38ef9a673930cb136d1e6ec8638",
+    "installerSha256": "075fbd0f032997dec4e3384aa5991b65bf7243f7a66a8584f49621180e109631",
+    "portableSha256": "2f635b4348c2865d706a403219d80bd31726f38f7bf2c3810e2b483b9aab8f1c"
   },
-  "nextStage": "installed trial/update-cycle verification, then publish the verified GitHub Release asset and move latest-stable.json last",
+  "nextStage": "installed and portable update-cycle verification, then publish both exact GitHub Release assets and move latest-stable.json last",
   "notes": "Development metadata only. This manifest never triggers customer updates."
 }
