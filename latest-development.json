@@ -12,7 +12,7 @@
   "updaterContractVersion": 3,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
-  "sourceRepositoryCommit": "0155e4e9ddb5682958e6e1050c2b97f814368b0f",
+  "sourceRepositoryCommit": "6c5d5c6f05696311b6ccdbc97240d2cfedbf28ce",
   "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
   "commercialSourcePublishedPublicly": false,
   "trial": {
@@ -21,11 +21,13 @@
     "streamAvailableWhileUnlicensed": false,
     "convertAvailableWhileUnlicensed": false,
     "licenseAccessBeforeTrialExhaustion": true,
+    "payhipPurchaseAvailableBeforeTrialExhaustion": true,
+    "serialEntryAvailableBeforeTrialExhaustion": true,
     "updateResetsTrial": false
   },
   "candidateArtifacts": {
-    "stagedExeSha256": "fd610f7eb075f7074b47f771be640b702d9afaee046ea8366360c4d4fa9fb98d",
-    "installerSha256": "0b729e8101e2f9720cfb1b90bb97b32333c086c8c793c654bcb8bd345c07e033"
+    "stagedExeSha256": "bb512b3e24975a9142b08429cdec4990cff964f91fe7c619e6d97d8027758157",
+    "installerSha256": "c6a64a24ab48cf1b01b21ce869605bf949bb92232f6a62794253c1b929b27d2d"
   },
   "nextStage": "verify installed trial and update lifecycle, publish the exact installer as a MediaDock-Release GitHub Release asset, then activate latest-stable.json last",
   "notes": "Development metadata only. It never triggers customer updates."
