@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "MediaDock",
+  "version": "R1.6.18",
+  "channel": "stable",
+  "stable": false,
+  "windowsRuntimeVerified": false,
+  "installerPublished": false,
+  "updaterPublished": false,
+  "installerUrl": null,
+  "installerSha256": null,
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.18.md",
+  "minimumSupportedVersion": "R1.6.18",
+  "notes": "Inactive fail-closed stable pointer. Customer updaters must ignore this until the release gate is completed."
+}

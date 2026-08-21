@@ -1,13 +1,17 @@
 {
+  "schemaVersion": 1,
   "product": "MediaDock",
-  "version": "R1.6.17",
+  "version": "R1.6.18",
   "channel": "development",
   "stable": false,
+  "windowsBuildVerified": true,
   "windowsRuntimeVerified": false,
   "installerPublished": false,
   "updaterPublished": false,
-  "packageSha256": "f406b510f3f0b104ba96b58cc82e649094d5e77f3faac0e708fd70d08a52a40b",
+  "updaterContractVersion": 1,
+  "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
+  "sourceRepositoryCommit": "215c5baa6723c0c10bd13830056765c349504eda",
   "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
   "commercialSourcePublishedPublicly": false,
   "trial": {
@@ -16,6 +20,11 @@
     "streamAvailableWhileUnlicensed": false,
     "convertAvailableWhileUnlicensed": false
   },
-  "nextStage": "guarded Windows installer build/install/runtime test",
-  "notes": "Development metadata only. No installer or stable updater pointer is published yet."
+  "candidateArtifacts": {
+    "stagedExeSha256": "5e31fc73ff7b92bfebf360fa815bac09e74c4fb519ed0293400b35077d6b9e8a",
+    "installerSha256": "75065779a9ab3fb10dceb13c67b29788133076a190caf27a9eb0aa2c68c40ec8",
+    "portableZipSha256": "b5a1eecb845c6250eeb5954785968564923492530f750c949c369b41fd90078d"
+  },
+  "nextStage": "installed trial/update-cycle verification, then publish the verified GitHub Release asset and move latest-stable.json last",
+  "notes": "Development metadata only. This manifest never triggers customer updates."
 }
