@@ -1,25 +1,25 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.26",
+    "version":  "R1.6.27",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
     "windowsBuildVerified":  true,
     "windowsRuntimeVerified":  true,
-    "settingsSmokeVerified":  true,
-    "licensedUiSmokeVerified":  true,
-    "primaryNavigationClickSmokeVerified":  true,
-    "premiumViewFunctionalWiringVerified":  true,
+    "fixedMainViewportVerified":  true,
+    "mainButtonGeometryVerified":  true,
+    "settingsCompactCleanupVerified":  true,
+    "settingsButtonGeometryVerified":  true,
+    "realNavigationClickSmokeVerified":  true,
     "licensePersistenceVerified":  true,
-    "updaterDetectionVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
     "updaterContractVersion":  3,
     "stableManifest":  "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
     "commercialSourcePublishedPublicly":  false,
     "candidateArtifacts":  {
-                               "installerSha256":  "14c09e2413f5c52da334e9235f6ea11e0e60c1f62fb08e4fe1c44b71d48306f0",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.26/MediaDock-Setup-R1.6.26.exe"
+                               "installerSha256":  "989ea6a152c272a3d1c0c51e1d5a222db4e2d1987ae8d7bd8acfe532fec847c7",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.27/MediaDock-Setup-R1.6.27.exe"
                            }
 }
