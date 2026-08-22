@@ -1,12 +1,13 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.21",
+    "version":  "R1.6.22",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
     "windowsBuildVerified":  true,
     "windowsRuntimeVerified":  true,
+    "settingsSmokeVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
     "updaterContractVersion":  3,
@@ -19,10 +20,15 @@
                   "updateResetsTrial":  false
               },
     "candidateArtifacts":  {
-                               "installerSha256":  "5e5c19aeab9e05fd320e807d1e959dfd08760660085077ae6ddde2aa81a41a29",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.21/MediaDock-Setup-R1.6.21.exe",
-                               "installerSizeBytes":  173852494
+                               "installerSha256":  "3e52ac2cf15751b2aee038f893c2513a67850545f5e378622ea6add221c8a726",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.22/MediaDock-Setup-R1.6.22.exe"
                            },
-    "nextStage":  "Customer receipt test from installed R1.6.20 using Settings \u003e Check for Updates.",
-    "notes":  "Exact R1.6.21 GitHub Release installer uploaded and downloaded back with matching SHA-256 before stable activation."
+    "fixes":  [
+                  "Settings runtime smoke gate",
+                  "Settings crash containment and logs",
+                  "Settings XAML cleanup",
+                  "ASCII visible trial separator",
+                  "Future R1.6.23 updater self-test"
+              ],
+    "notes":  "R1.6.22 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
 }
