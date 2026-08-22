@@ -1,15 +1,15 @@
 {
-  "schemaVersion": 3,
-  "product": "MediaDock",
-  "version": "R1.6.19",
-  "channel": "stable",
-  "stable": false,
-  "windowsRuntimeVerified": false,
-  "installerPublished": false,
-  "updaterPublished": false,
-  "installerUrl": null,
-  "installerSha256": null,
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.19.md",
-  "minimumSupportedVersion": "R1.6.19",
-  "notes": "Inactive fail-closed installer-only stable pointer. Customer updaters ignore this until the release gate is completed."
+    "schemaVersion":  3,
+    "product":  "MediaDock",
+    "version":  "R1.6.21",
+    "channel":  "stable",
+    "stable":  true,
+    "windowsRuntimeVerified":  true,
+    "installerPublished":  true,
+    "updaterPublished":  true,
+    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.21/MediaDock-Setup-R1.6.21.exe",
+    "installerSha256":  "5e5c19aeab9e05fd320e807d1e959dfd08760660085077ae6ddde2aa81a41a29",
+    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.21.md",
+    "minimumSupportedVersion":  "R1.6.19",
+    "notes":  "Verified installer-only in-place stable release. Customer updater must verify this SHA-256 before installer launch."
 }
