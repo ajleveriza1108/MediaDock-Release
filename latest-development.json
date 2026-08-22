@@ -1,40 +1,28 @@
 {
-  "schemaVersion": 3,
-  "product": "MediaDock",
-  "version": "R1.6.19",
-  "channel": "development",
-  "stable": false,
-  "installerOnly": true,
-  "windowsBuildVerified": true,
-  "windowsRuntimeVerified": false,
-  "installerPublished": false,
-  "updaterPublished": false,
-  "updaterContractVersion": 3,
-  "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
-  "sourceRepository": "https://github.com/ajleveriza1108/Media-Downloader",
-  "sourceRepositoryCommit": "785ecbae50dfd86f56935bdd8c39c9f56eb4b71e",
-  "releaseRepository": "https://github.com/ajleveriza1108/MediaDock-Release",
-  "commercialSourcePublishedPublicly": false,
-  "trial": {
-    "videoOutputs": 5,
-    "mp3Outputs": 5,
-    "streamAvailableWhileUnlicensed": false,
-    "convertAvailableWhileUnlicensed": false,
-    "licenseAccessBeforeTrialExhaustion": true,
-    "serialEntryAvailableBeforeTrialExhaustion": true,
-    "serialEntryCenteredWithPurchaseAction": true,
-    "adminAndCustomerActivationSupported": true,
-    "releaseThisDeviceSupported": true,
-    "licenseClientUsesReflectionActivationDiscovery": false,
-    "licenseBackendLiveVerifiedBeforeBuild": true,
-    "protectedActivationPersistenceVerifiedBySourceContract": true,
-    "activationRequiresRestart": false,
-    "updateResetsTrial": false
-  },
-  "candidateArtifacts": {
-    "stagedExeSha256": "48f34536718847fd28d1b27e32a62019bd8974f5ce4e6bf7e4759e7b1c6e587b",
-    "installerSha256": "6502a3e7947de6e5510e4762afcc968bedae0aacf0151bee504196648b0378d5"
-  },
-  "nextStage": "verify installed trial and update lifecycle, publish the exact installer as a MediaDock-Release GitHub Release asset, then activate latest-stable.json last",
-  "notes": "Development metadata only. It never triggers customer updates."
+    "schemaVersion":  3,
+    "product":  "MediaDock",
+    "version":  "R1.6.21",
+    "channel":  "development",
+    "stable":  false,
+    "installerOnly":  true,
+    "windowsBuildVerified":  true,
+    "windowsRuntimeVerified":  true,
+    "installerPublished":  true,
+    "updaterPublished":  true,
+    "updaterContractVersion":  3,
+    "stableManifest":  "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
+    "releaseRepository":  "https://github.com/ajleveriza1108/MediaDock-Release",
+    "commercialSourcePublishedPublicly":  false,
+    "trial":  {
+                  "videoOutputs":  5,
+                  "mp3Outputs":  5,
+                  "updateResetsTrial":  false
+              },
+    "candidateArtifacts":  {
+                               "installerSha256":  "5e5c19aeab9e05fd320e807d1e959dfd08760660085077ae6ddde2aa81a41a29",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.21/MediaDock-Setup-R1.6.21.exe",
+                               "installerSizeBytes":  173852494
+                           },
+    "nextStage":  "Customer receipt test from installed R1.6.20 using Settings \u003e Check for Updates.",
+    "notes":  "Exact R1.6.21 GitHub Release installer uploaded and downloaded back with matching SHA-256 before stable activation."
 }
