@@ -1,7 +1,7 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.25",
+    "version":  "R1.6.26",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
@@ -9,40 +9,17 @@
     "windowsRuntimeVerified":  true,
     "settingsSmokeVerified":  true,
     "licensedUiSmokeVerified":  true,
-    "premiumFeatureUnlockVerified":  true,
-    "premiumFunctionalEntryPointsVerified":  true,
+    "primaryNavigationClickSmokeVerified":  true,
+    "premiumViewFunctionalWiringVerified":  true,
     "licensePersistenceVerified":  true,
     "updaterDetectionVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
     "updaterContractVersion":  3,
     "stableManifest":  "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
-    "releaseRepository":  "https://github.com/ajleveriza1108/MediaDock-Release",
     "commercialSourcePublishedPublicly":  false,
-    "trial":  {
-                  "videoOutputs":  5,
-                  "mp3Outputs":  5,
-                  "streamEnabled":  false,
-                  "convertEnabled":  false,
-                  "updateResetsTrial":  false
-              },
-    "fullLicense":  {
-                        "streamEnabled":  true,
-                        "convertEnabled":  true
-                    },
     "candidateArtifacts":  {
-                               "installerSha256":  "ff868505fe5cf400d79071031c3dece43fcf8c90723936ed99aea181bc6e2022",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.25/MediaDock-Setup-R1.6.25.exe"
-                           },
-    "fixes":  [
-                  "Full-license Stream unlock",
-                  "Full-license Convert unlock",
-                  "Trial premium-feature lock preserved",
-                  "Premium navigation Click/Command wiring gate",
-                  "Licensed Command.CanExecute gate",
-                  "R1.6.24 license persistence preserved",
-                  "Shared BuildIdentity R1.6.25",
-                  "Future R1.6.26 receiving self-test"
-              ],
-    "notes":  "R1.6.25 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
+                               "installerSha256":  "14c09e2413f5c52da334e9235f6ea11e0e60c1f62fb08e4fe1c44b71d48306f0",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.26/MediaDock-Setup-R1.6.26.exe"
+                           }
 }
