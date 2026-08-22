@@ -1,15 +1,15 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.24",
+    "version":  "R1.6.25",
     "channel":  "stable",
     "stable":  true,
     "windowsRuntimeVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
-    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.24/MediaDock-Setup-R1.6.24.exe",
-    "installerSha256":  "acbd2032a6a1219c303b14ff914ad1c3fe899d4d80f59277ae391f0dcebe7e14",
-    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.24.md",
+    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.25/MediaDock-Setup-R1.6.25.exe",
+    "installerSha256":  "ff868505fe5cf400d79071031c3dece43fcf8c90723936ed99aea181bc6e2022",
+    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.25.md",
     "minimumSupportedVersion":  "R1.6.19",
-    "notes":  "Verified installer-only in-place stable release. R1.6.24 repairs activation persistence races and licensed-footer rebound."
+    "notes":  "Verified installer-only in-place stable release. R1.6.25 unlocks Stream and Convert only for active full licenses and gates both functional entry points."
 }
