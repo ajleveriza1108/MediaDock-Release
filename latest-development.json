@@ -1,7 +1,7 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.24",
+    "version":  "R1.6.25",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
@@ -9,8 +9,9 @@
     "windowsRuntimeVerified":  true,
     "settingsSmokeVerified":  true,
     "licensedUiSmokeVerified":  true,
+    "premiumFeatureUnlockVerified":  true,
+    "premiumFunctionalEntryPointsVerified":  true,
     "licensePersistenceVerified":  true,
-    "licenseOperationSerializationVerified":  true,
     "updaterDetectionVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
@@ -21,19 +22,27 @@
     "trial":  {
                   "videoOutputs":  5,
                   "mp3Outputs":  5,
+                  "streamEnabled":  false,
+                  "convertEnabled":  false,
                   "updateResetsTrial":  false
               },
+    "fullLicense":  {
+                        "streamEnabled":  true,
+                        "convertEnabled":  true
+                    },
     "candidateArtifacts":  {
-                               "installerSha256":  "acbd2032a6a1219c303b14ff914ad1c3fe899d4d80f59277ae391f0dcebe7e14",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.24/MediaDock-Setup-R1.6.24.exe"
+                               "installerSha256":  "ff868505fe5cf400d79071031c3dece43fcf8c90723936ed99aea181bc6e2022",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.25/MediaDock-Setup-R1.6.25.exe"
                            },
     "fixes":  [
-                  "Serialized startup validation, activation, and release",
-                  "Credential Manager + DPAPI isolated persistence round-trip",
-                  "Licensed footer binding-rebound protection",
-                  "Licensed UI rebound regression smoke",
-                  "Shared BuildIdentity R1.6.24",
-                  "Future R1.6.25 receiving self-test"
+                  "Full-license Stream unlock",
+                  "Full-license Convert unlock",
+                  "Trial premium-feature lock preserved",
+                  "Premium navigation Click/Command wiring gate",
+                  "Licensed Command.CanExecute gate",
+                  "R1.6.24 license persistence preserved",
+                  "Shared BuildIdentity R1.6.25",
+                  "Future R1.6.26 receiving self-test"
               ],
-    "notes":  "R1.6.24 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
+    "notes":  "R1.6.25 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
 }
