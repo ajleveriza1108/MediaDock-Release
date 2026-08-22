@@ -8,7 +8,7 @@
     "installerPublished":  true,
     "updaterPublished":  true,
     "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.24/MediaDock-Setup-R1.6.24.exe",
-    "installerSha256":  "e0a610e01924bab8a846b516d3ae6e517446322b3c879a596518327d3cd5d0ee",
+    "installerSha256":  "acbd2032a6a1219c303b14ff914ad1c3fe899d4d80f59277ae391f0dcebe7e14",
     "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.24.md",
     "minimumSupportedVersion":  "R1.6.19",
     "notes":  "Verified installer-only in-place stable release. R1.6.24 repairs activation persistence races and licensed-footer rebound."
