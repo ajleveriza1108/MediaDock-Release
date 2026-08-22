@@ -1,15 +1,15 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.26",
+    "version":  "R1.6.27",
     "channel":  "stable",
     "stable":  true,
     "windowsRuntimeVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
-    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.26/MediaDock-Setup-R1.6.26.exe",
-    "installerSha256":  "14c09e2413f5c52da334e9235f6ea11e0e60c1f62fb08e4fe1c44b71d48306f0",
-    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.26.md",
+    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.27/MediaDock-Setup-R1.6.27.exe",
+    "installerSha256":  "989ea6a152c272a3d1c0c51e1d5a222db4e2d1987ae8d7bd8acfe532fec847c7",
+    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.27.md",
     "minimumSupportedVersion":  "R1.6.19",
-    "notes":  "R1.6.26 real-click Download/Stream/Convert primary navigation repair."
+    "notes":  "R1.6.27 compact fixed-window GUI polish with no-crop/no-overlap visible-button gates."
 }
