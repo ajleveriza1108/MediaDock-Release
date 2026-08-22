@@ -1,13 +1,15 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.22",
+    "version":  "R1.6.23",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
     "windowsBuildVerified":  true,
     "windowsRuntimeVerified":  true,
     "settingsSmokeVerified":  true,
+    "licensedUiSmokeVerified":  true,
+    "updaterDetectionVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
     "updaterContractVersion":  3,
@@ -20,15 +22,17 @@
                   "updateResetsTrial":  false
               },
     "candidateArtifacts":  {
-                               "installerSha256":  "e3e306afef103058313ea41df021744bb78d8d6519fafcb5753e5bcd85b739e4",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.22/MediaDock-Setup-R1.6.22.exe"
+                               "installerSha256":  "9617daaabd71bf6b88380a1424446bfcd1e4d07731bb8e8b6a413a7b284aca34",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.23/MediaDock-Setup-R1.6.23.exe"
                            },
     "fixes":  [
-                  "Settings runtime smoke gate",
-                  "Settings crash containment and logs",
-                  "Settings XAML cleanup",
-                  "ASCII visible trial separator",
-                  "Future R1.6.23 updater self-test"
+                  "Stable manifest cache-busting request",
+                  "No-cache/no-store updater request headers",
+                  "Informational-version-first current version resolution",
+                  "Updater decision diagnostics",
+                  "Shared BuildIdentity source of truth",
+                  "Visible MediaDock R1.6.23 build-label smoke test",
+                  "Future R1.6.24 receiving self-test"
               ],
-    "notes":  "R1.6.22 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
+    "notes":  "R1.6.23 exact installer was uploaded and downloaded back with matching SHA-256 before stable activation."
 }
