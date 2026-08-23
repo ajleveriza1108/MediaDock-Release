@@ -1,15 +1,15 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.28",
+    "version":  "R1.6.31",
     "channel":  "stable",
     "stable":  true,
     "windowsRuntimeVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
-    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.28/MediaDock-Setup-R1.6.28.exe",
-    "installerSha256":  "ab829edfed70575fb50ba3eaffee31cb498319762e89bb0800a419bd35a6b17b",
-    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.28.md",
+    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.31/MediaDock-Setup-R1.6.31.exe",
+    "installerSha256":  "847beac9023b1a577f49ed4b379c2701db12720279de7233f6aebb0aca9de810",
+    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.31.md",
     "minimumSupportedVersion":  "R1.6.19",
-    "notes":  "R1.6.28 fixes Settings/textbox/text corruption and adds subtitle download plus Reddit/public-media detection hardening."
+    "notes":  "R1.6.31 adds compact Queue action icons, safe downloaded-file deletion prompts, Download Ready busy/empty-state handling, full-license consistency, 5-concurrent Queue downloads, Output Folder controls, and original-audio preference."
 }
