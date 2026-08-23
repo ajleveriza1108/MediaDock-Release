@@ -1,17 +1,19 @@
 {
     "schemaVersion":  3,
     "product":  "MediaDock",
-    "version":  "R1.6.27",
+    "version":  "R1.6.28",
     "channel":  "development",
     "stable":  false,
     "installerOnly":  true,
     "windowsBuildVerified":  true,
     "windowsRuntimeVerified":  true,
-    "fixedMainViewportVerified":  true,
-    "mainButtonGeometryVerified":  true,
-    "settingsCompactCleanupVerified":  true,
-    "settingsButtonGeometryVerified":  true,
-    "realNavigationClickSmokeVerified":  true,
+    "textboxReadabilityVerified":  true,
+    "settingsSingleCloseVerified":  true,
+    "subtitleDownloadVerified":  true,
+    "redditExtractorVerified":  true,
+    "genericExtractorVerified":  true,
+    "uiTextSanitizerVerified":  true,
+    "navigationSmokeVerified":  true,
     "licensePersistenceVerified":  true,
     "installerPublished":  true,
     "updaterPublished":  true,
@@ -19,7 +21,7 @@
     "stableManifest":  "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
     "commercialSourcePublishedPublicly":  false,
     "candidateArtifacts":  {
-                               "installerSha256":  "989ea6a152c272a3d1c0c51e1d5a222db4e2d1987ae8d7bd8acfe532fec847c7",
-                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.27/MediaDock-Setup-R1.6.27.exe"
+                               "installerSha256":  "ab829edfed70575fb50ba3eaffee31cb498319762e89bb0800a419bd35a6b17b",
+                               "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.28/MediaDock-Setup-R1.6.28.exe"
                            }
 }
