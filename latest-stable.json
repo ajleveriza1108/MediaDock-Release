@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.32",
+  "version": "R1.6.33",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.32/MediaDock-Setup-R1.6.32.exe",
-  "installerSha256": "a9d58224ed7875401304f6e406c44133be2ca826ad00663c0795f2f2d4494c98",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.32.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.33/MediaDock-Setup-R1.6.33.exe",
+  "installerSha256": "f09c0e956a0e90256c8e5616385e508ed971d69fb5702f2f234bd5e1816002fb",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.33.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.32 fixes the Light-theme Queue SOURCE URL surface while preserving the accepted R1.6.31 queue, licensing, concurrency, audio, and output-folder behavior."
+  "notes": "R1.6.33 adds Premium GUI Phase 1 for Convert, Settings, and the update toast while preserving the accepted R1.6.32 Light-theme repair and queue/licensing/concurrency/audio/output-folder behavior."
 }

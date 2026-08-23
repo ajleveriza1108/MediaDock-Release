@@ -1,13 +1,17 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.32",
+  "version": "R1.6.33",
   "channel": "development",
   "stable": false,
   "installerOnly": true,
   "windowsBuildVerified": true,
   "windowsRuntimeVerified": true,
   "lightThemeSourceSurfaceVerified": true,
+  "premiumGuiVerified": true,
+  "premiumConvertWorkspaceVerified": true,
+  "premiumSettingsVerified": true,
+  "premiumUpdateToastVerified": true,
   "queueCompactIconActionsVerified": true,
   "safeDeletePromptVerified": true,
   "downloadReadyStateVerified": true,
@@ -21,7 +25,7 @@
   "commercialSourcePublishedPublicly": false,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "candidateArtifacts": {
-    "installerSha256": "a9d58224ed7875401304f6e406c44133be2ca826ad00663c0795f2f2d4494c98",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.32/MediaDock-Setup-R1.6.32.exe"
+    "installerSha256": "f09c0e956a0e90256c8e5616385e508ed971d69fb5702f2f234bd5e1816002fb",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.33/MediaDock-Setup-R1.6.33.exe"
   }
 }
