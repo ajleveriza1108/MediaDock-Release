@@ -1,15 +1,15 @@
 {
-    "schemaVersion":  3,
-    "product":  "MediaDock",
-    "version":  "R1.6.31",
-    "channel":  "stable",
-    "stable":  true,
-    "windowsRuntimeVerified":  true,
-    "installerPublished":  true,
-    "updaterPublished":  true,
-    "installerUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.31/MediaDock-Setup-R1.6.31.exe",
-    "installerSha256":  "847beac9023b1a577f49ed4b379c2701db12720279de7233f6aebb0aca9de810",
-    "releaseNotesUrl":  "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.31.md",
-    "minimumSupportedVersion":  "R1.6.19",
-    "notes":  "R1.6.31 adds compact Queue action icons, safe downloaded-file deletion prompts, Download Ready busy/empty-state handling, full-license consistency, 5-concurrent Queue downloads, Output Folder controls, and original-audio preference."
+  "schemaVersion": 3,
+  "product": "MediaDock",
+  "version": "R1.6.32",
+  "channel": "stable",
+  "stable": true,
+  "windowsRuntimeVerified": true,
+  "installerPublished": true,
+  "updaterPublished": true,
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.32/MediaDock-Setup-R1.6.32.exe",
+  "installerSha256": "a9d58224ed7875401304f6e406c44133be2ca826ad00663c0795f2f2d4494c98",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.32.md",
+  "minimumSupportedVersion": "R1.6.19",
+  "notes": "R1.6.32 fixes the Light-theme Queue SOURCE URL surface while preserving the accepted R1.6.31 queue, licensing, concurrency, audio, and output-folder behavior."
 }
