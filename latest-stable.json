@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.34",
+  "version": "R1.6.35",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.34/MediaDock-Setup-R1.6.34.exe",
-  "installerSha256": "245d3bca79ff2510e57829c5cd4544ea316e2f2ba80da628cf24322ea815d804",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.34.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.35/MediaDock-Setup-R1.6.35.exe",
+  "installerSha256": "d95972c4e12685e5b188c62395906b122ddfee3e3b5ea97ad9325610982e974b",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.35.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.34 makes the premium Settings navigation functional, adds scroll-synced active state, custom checkboxes and scrollbar polish, and preserves the accepted R1.6.33 premium GUI plus existing MediaDock behavior."
+  "notes": "R1.6.35 refines Settings navigation motion and icons and introduces a simpler premium update experience while preserving accepted MediaDock behavior."
 }
