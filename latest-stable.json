@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.33",
+  "version": "R1.6.34",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.33/MediaDock-Setup-R1.6.33.exe",
-  "installerSha256": "f09c0e956a0e90256c8e5616385e508ed971d69fb5702f2f234bd5e1816002fb",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.33.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.34/MediaDock-Setup-R1.6.34.exe",
+  "installerSha256": "245d3bca79ff2510e57829c5cd4544ea316e2f2ba80da628cf24322ea815d804",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.34.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.33 adds Premium GUI Phase 1 for Convert, Settings, and the update toast while preserving the accepted R1.6.32 Light-theme repair and queue/licensing/concurrency/audio/output-folder behavior."
+  "notes": "R1.6.34 makes the premium Settings navigation functional, adds scroll-synced active state, custom checkboxes and scrollbar polish, and preserves the accepted R1.6.33 premium GUI plus existing MediaDock behavior."
 }
