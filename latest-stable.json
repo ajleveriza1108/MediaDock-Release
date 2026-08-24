@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.35",
+  "version": "R1.6.36",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.35/MediaDock-Setup-R1.6.35.exe",
-  "installerSha256": "d95972c4e12685e5b188c62395906b122ddfee3e3b5ea97ad9325610982e974b",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.35.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.36/MediaDock-Setup-R1.6.36.exe",
+  "installerSha256": "a1b3394d43c2090f669f213a61560ba95fd361940b8a8266c88f3aa63b093959",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.36.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.35 refines Settings navigation motion and icons and introduces a simpler premium update experience while preserving accepted MediaDock behavior."
+  "notes": "R1.6.36 adds YouTube audio-track and dub selection with the source/original language selected by default, while carrying forward the premium navigation and update experience."
 }
