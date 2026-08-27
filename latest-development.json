@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.36",
+  "version": "R1.6.39",
   "channel": "development",
   "stable": false,
   "installerOnly": true,
@@ -33,7 +33,14 @@
   "commercialSourcePublishedPublicly": false,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "candidateArtifacts": {
-    "installerSha256": "a1b3394d43c2090f669f213a61560ba95fd361940b8a8266c88f3aa63b093959",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.36/MediaDock-Setup-R1.6.36.exe"
-  }
+    "installerSha256": "9355bac82e00d0ee9cf6297dd95db0ddce6a66f10cca10998eee5a1300abb307",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.39/MediaDock-Setup-R1.6.39.exe"
+  },
+  "queueAudioDubPerRowVerified": true,
+  "m4aAudioOutputVerified": true,
+  "flacAudioOutputVerified": true,
+  "sharedAudioTrialAccountingVerified": true,
+  "clipboardMediaLinkDetectionVerified": true,
+  "clipboardDetectionDisabledByDefaultVerified": true,
+  "queueLayoutProtectionVerified": true
 }
