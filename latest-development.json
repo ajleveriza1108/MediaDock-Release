@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.39",
+  "version": "R1.6.40",
   "channel": "development",
   "stable": false,
   "installerOnly": true,
@@ -33,8 +33,8 @@
   "commercialSourcePublishedPublicly": false,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "candidateArtifacts": {
-    "installerSha256": "9355bac82e00d0ee9cf6297dd95db0ddce6a66f10cca10998eee5a1300abb307",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.39/MediaDock-Setup-R1.6.39.exe"
+    "installerSha256": "bb06d478d9cc2aae68a95101dc5892df40c0569ae12b0757d0da0b9a5fe59c4c",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.40/MediaDock-Setup-R1.6.40.exe"
   },
   "queueAudioDubPerRowVerified": true,
   "m4aAudioOutputVerified": true,
@@ -42,5 +42,10 @@
   "sharedAudioTrialAccountingVerified": true,
   "clipboardMediaLinkDetectionVerified": true,
   "clipboardDetectionDisabledByDefaultVerified": true,
-  "queueLayoutProtectionVerified": true
+  "queueLayoutProtectionVerified": true,
+  "responsiveQueueNoHorizontalScrollVerified": true,
+  "queueRefreshPerRowVerified": true,
+  "queueRefreshAllVerified": true,
+  "existingOutputReconciliationVerified": true,
+  "convertedOutputDetectionVerified": true
 }
