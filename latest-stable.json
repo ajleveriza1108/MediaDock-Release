@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.36",
+  "version": "R1.6.39",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.36/MediaDock-Setup-R1.6.36.exe",
-  "installerSha256": "a1b3394d43c2090f669f213a61560ba95fd361940b8a8266c88f3aa63b093959",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.36.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.39/MediaDock-Setup-R1.6.39.exe",
+  "installerSha256": "9355bac82e00d0ee9cf6297dd95db0ddce6a66f10cca10998eee5a1300abb307",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.39.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.36 adds YouTube audio-track and dub selection with the source/original language selected by default, while carrying forward the premium navigation and update experience."
+  "notes": "R1.6.39 adds queue layout protection, visible per-row Audio / Dub selection, safe-delete handling, M4A and FLAC audio outputs with shared audio-trial accounting, and optional clipboard media-link detection disabled by default."
 }
