@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.40",
+  "version": "R1.6.41",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.40/MediaDock-Setup-R1.6.40.exe",
-  "installerSha256": "bb06d478d9cc2aae68a95101dc5892df40c0569ae12b0757d0da0b9a5fe59c4c",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.40.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.41/MediaDock-Setup-R1.6.41.exe",
+  "installerSha256": "a3083bc1b79982d44c8868d341a6f7fea911123e9f81b0f97f66bd5d92e3a8c7",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.41.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.40 makes the Download queue responsive without horizontal scrolling, adds per-row Refresh and Refresh All, and reconciles existing downloaded, converted, missing, and partial outputs before duplicate work."
+  "notes": "R1.6.41 completes the functional GUI pass: licensed Stream/Convert navigation works, queue selection/actions are unified, MKV is restored, qualities follow analyzed source capabilities, failed rows can retry, and clip controls clearly separate Full from Custom."
 }
