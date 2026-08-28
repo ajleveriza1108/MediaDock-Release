@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.40",
+  "version": "R1.6.41",
   "channel": "development",
   "stable": false,
   "installerOnly": true,
@@ -33,8 +33,8 @@
   "commercialSourcePublishedPublicly": false,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
   "candidateArtifacts": {
-    "installerSha256": "bb06d478d9cc2aae68a95101dc5892df40c0569ae12b0757d0da0b9a5fe59c4c",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.40/MediaDock-Setup-R1.6.40.exe"
+    "installerSha256": "a3083bc1b79982d44c8868d341a6f7fea911123e9f81b0f97f66bd5d92e3a8c7",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.41/MediaDock-Setup-R1.6.41.exe"
   },
   "queueAudioDubPerRowVerified": true,
   "m4aAudioOutputVerified": true,
@@ -47,5 +47,13 @@
   "queueRefreshPerRowVerified": true,
   "queueRefreshAllVerified": true,
   "existingOutputReconciliationVerified": true,
-  "convertedOutputDetectionVerified": true
+  "convertedOutputDetectionVerified": true,
+  "functionalGuiClickabilityVerified": true,
+  "licensedStreamConvertNavigationVerified": true,
+  "queueSelectionStateUnifiedVerified": true,
+  "mkvOutputVerified": true,
+  "sourceSupportedQualityChoicesVerified": true,
+  "failedQueueRetryVerified": true,
+  "clipModeFullCustomVerified": true,
+  "defaultMp3QualitySettingVerified": true
 }
