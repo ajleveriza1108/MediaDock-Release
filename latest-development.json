@@ -1,10 +1,10 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.41",
+  "version": "R1.6.44",
   "channel": "development",
   "stable": false,
-  "installerOnly": true,
+  "installerOnly": false,
   "windowsBuildVerified": true,
   "windowsRuntimeVerified": true,
   "premiumGuiVerified": true,
@@ -29,13 +29,9 @@
   "outputFolderVerified": true,
   "licensePersistenceVerified": true,
   "installerPublished": true,
-  "updaterPublished": true,
+  "updaterPublished": false,
   "commercialSourcePublishedPublicly": false,
   "stableManifest": "https://raw.githubusercontent.com/ajleveriza1108/MediaDock-Release/main/latest-stable.json",
-  "candidateArtifacts": {
-    "installerSha256": "a3083bc1b79982d44c8868d341a6f7fea911123e9f81b0f97f66bd5d92e3a8c7",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.41/MediaDock-Setup-R1.6.41.exe"
-  },
   "queueAudioDubPerRowVerified": true,
   "m4aAudioOutputVerified": true,
   "flacAudioOutputVerified": true,
@@ -55,5 +51,28 @@
   "sourceSupportedQualityChoicesVerified": true,
   "failedQueueRetryVerified": true,
   "clipModeFullCustomVerified": true,
-  "defaultMp3QualitySettingVerified": true
+  "defaultMp3QualitySettingVerified": true,
+  "universalDownloaderVerified": true,
+  "desktopArtifactsVerified": true,
+  "fourConcurrentGeneralDownloadsVerified": true,
+  "torrentFileSelectionVerified": true,
+  "torrentDhtPexVerified": true,
+  "torrentDownloaderVerified": true,
+  "mediaTabVerified": true,
+  "extensionId": "mgknjickielihcigpanjhhpbaldcpolf",
+  "magnetLinksVerified": true,
+  "torrentStreamingVerified": true,
+  "installedRuntimeVerified": false,
+  "chromeDeveloperExtensionVerified": true,
+  "browserDownloadInterceptionVerified": true,
+  "torrentFastResumeVerified": true,
+  "floatingMediaGrabberVerified": true,
+  "downloadFileDialogVerified": true,
+  "sourceCommit": "0c09f4912a2fed003b5b5c85871b036ae56deda8",
+  "candidateArtifacts": {
+    "installerSha256": "995616e08dd0334652bd7a9d0e3c9b67a99df5cbda396481c769114b20765f31",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.44-development/MediaDock-Setup-R1.6.44.exe",
+    "extensionUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.44-development/MediaDock-Chrome-Extension-R1.6.44.zip",
+    "extensionId": "mgknjickielihcigpanjhhpbaldcpolf"
+  }
 }
