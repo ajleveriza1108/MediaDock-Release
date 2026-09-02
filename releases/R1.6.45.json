@@ -1,0 +1,9 @@
+{
+  "product": "MediaDock",
+  "version": "R1.6.45",
+  "channel": "stable",
+  "stableActivated": true,
+  "installerSha256": "047e6218a2258c2969d11bee4b3b00d8ecc95e2fecbc41f0a3f955b6ef971275",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.45/MediaDock-Setup-R1.6.45.exe",
+  "promotedUtc": "2026-09-02T23:27:08.4007527+00:00"
+}

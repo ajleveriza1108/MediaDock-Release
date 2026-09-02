@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.41",
+  "version": "R1.6.45",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.41/MediaDock-Setup-R1.6.41.exe",
-  "installerSha256": "a3083bc1b79982d44c8868d341a6f7fea911123e9f81b0f97f66bd5d92e3a8c7",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.41.md",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.45/MediaDock-Setup-R1.6.45.exe",
+  "installerSha256": "047e6218a2258c2969d11bee4b3b00d8ecc95e2fecbc41f0a3f955b6ef971275",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/blob/main/releases/R1.6.45.md",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "R1.6.41 completes the functional GUI pass: licensed Stream/Convert navigation works, queue selection/actions are unified, MKV is restored, qualities follow analyzed source capabilities, failed rows can retry, and clip controls clearly separate Full from Custom."
+  "notes": "MediaDock R1.6.45 adds the torrent workspace, persistent torrent queue and settings, torrent streaming, improved DHT/PEX peer discovery, universal downloader, browser integration, and the performance-safe floating media grabber."
 }
