@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.46",
+  "version": "R1.6.50",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.46/MediaDock-Setup-R1.6.46.exe",
-  "installerSha256": "7f327d693b68b988a357a5cd4823da9f33e84e9ac824cca397875a8514eb0679",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.46",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.50/MediaDock-Setup-R1.6.50.exe",
+  "installerSha256": "beff6d093971dee3187e9e4d77d24f7a72c1c91ff585700a8a52fe630608ec07",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.50",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "MediaDock R1.6.46 persists loaded torrents across restarts, fixes live torrent progress/speed/peers/seeds/ETA telemetry and peer connectivity/download startup, and keeps update/torrent/download dialogs theme-adaptive and responsive."
+  "notes": "MediaDock R1.6.50 fixes live torrent speed, peer and ETA telemetry by measuring real transferred-byte deltas and using cached peer-monitor fallback, while preserving persistent restore, fast peer connectivity and the theme-adaptive responsive UI."
 }
