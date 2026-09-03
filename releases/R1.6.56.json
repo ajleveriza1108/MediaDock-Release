@@ -1,0 +1,12 @@
+{
+  "product": "MediaDock",
+  "version": "R1.6.56",
+  "channel": "stable",
+  "sourceCommit": "8ae33cb72694bb41614e3236d33108a0f1f3283e",
+  "installerSha256": "2228ca5ca316116e50df3bb11241ddc2b6a9dd0967b9dbe998442934938f301d",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.56/MediaDock-Setup-R1.6.56.exe",
+  "extensionUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.56/MediaDock-Chrome-Extension-R1.6.56.zip",
+  "extensionId": "mgknjickielihcigpanjhhpbaldcpolf",
+  "themeAdaptiveUi": true,
+  "stableActivated": true
+}
