@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.54",
+  "version": "R1.6.55",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.54/MediaDock-Setup-R1.6.54.exe",
-  "installerSha256": "8042555b683f1a7a875eff78a3787d942c0a7bd6e2edbb424174b70e6783b6ff",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.54",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.55/MediaDock-Setup-R1.6.55.exe",
+  "installerSha256": "bb9a0020109e261ef8ad5f9bcf9e8516cef5b60585910713ca2dac8e472b49c8",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.55",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "MediaDock R1.6.54 enlarges the themed torrent file selector and fixes recurring missing torrents after restart with canonical persistent .torrent metadata, embedded session recovery, legacy metadata migration and restore-after-window-load; measured speed/peer/ETA telemetry and fast peer connectivity remain intact."
+  "notes": "MediaDock R1.6.55 enlarges the themed torrent file selector and fixes recurring missing torrents after restart with canonical persistent .torrent metadata, embedded session recovery, legacy metadata migration and restore-after-window-load; measured speed/peer/ETA telemetry and fast peer connectivity remain intact."
 }
