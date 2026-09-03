@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.50",
+  "version": "R1.6.53",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.50/MediaDock-Setup-R1.6.50.exe",
-  "installerSha256": "beff6d093971dee3187e9e4d77d24f7a72c1c91ff585700a8a52fe630608ec07",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.50",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.53/MediaDock-Setup-R1.6.53.exe",
+  "installerSha256": "3f25ba9645df89ad4af183031aac290b025b894a3127ce78c6c4e2debbf18615",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.53",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "MediaDock R1.6.50 fixes live torrent speed, peer and ETA telemetry by measuring real transferred-byte deltas and using cached peer-monitor fallback, while preserving persistent restore, fast peer connectivity and the theme-adaptive responsive UI."
+  "notes": "MediaDock R1.6.53 enlarges the themed torrent file selector and fixes recurring missing torrents after restart with canonical persistent .torrent metadata, embedded session recovery, legacy metadata migration and restore-after-window-load; measured speed/peer/ETA telemetry and fast peer connectivity remain intact."
 }
