@@ -8,8 +8,8 @@
   "installerPublished": true,
   "updaterPublished": true,
   "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.46/MediaDock-Setup-R1.6.46.exe",
-  "installerSha256": "115c2eb2e7667457b9b0695e3dec9393e98280c82419b5c3fca4a99ddadec5ce",
+  "installerSha256": "7f327d693b68b988a357a5cd4823da9f33e84e9ac824cca397875a8514eb0679",
   "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.46",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "MediaDock R1.6.46 fixes torrent peer connectivity/download startup and makes update prompts, torrent workspace/dialogs and universal download dialogs theme-adaptive and responsive."
+  "notes": "MediaDock R1.6.46 persists loaded torrents across restarts, fixes live torrent progress/speed/peers/seeds/ETA telemetry and peer connectivity/download startup, and keeps update/torrent/download dialogs theme-adaptive and responsive."
 }
