@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.54",
+  "version": "R1.6.55",
   "channel": "development",
   "stable": false,
   "installerOnly": false,
@@ -65,20 +65,20 @@
   "floatingMediaGrabberVerified": true,
   "downloadFileDialogVerified": true,
   "torrentDhtBootstrapR1645Verified": true,
-  "themeResponsiveDialogsVerified": true,
+  "torrentDownloaderVerified": true,
+  "torrentPeerRecoveryVerified": true,
   "extensionId": "mgknjickielihcigpanjhhpbaldcpolf",
-  "torrentStreamingVerified": true,
+  "themeAdaptiveDialogsVerified": true,
   "themeAdaptiveTorrentWorkspaceVerified": true,
+  "themeResponsiveDialogsVerified": true,
   "torrentPersistentQueueVerified": true,
   "torrentDhtPexVerified": true,
-  "torrentDownloaderVerified": true,
-  "themeAdaptiveDialogsVerified": true,
-  "sourceCommit": "0eac403e4f0b088e845c9c5f3d2d7b93af27d71b",
-  "torrentPeerRecoveryVerified": true,
+  "sourceCommit": "70ae7fa88dd310cd34d6873789b981b49501778c",
+  "torrentStreamingVerified": true,
   "candidateArtifacts": {
-    "installerSha256": "8042555b683f1a7a875eff78a3787d942c0a7bd6e2edbb424174b70e6783b6ff",
-    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.54-development/MediaDock-Setup-R1.6.54.exe",
-    "extensionUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.54-development/MediaDock-Chrome-Extension-R1.6.54.zip",
+    "installerSha256": "bb9a0020109e261ef8ad5f9bcf9e8516cef5b60585910713ca2dac8e472b49c8",
+    "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.55-development/MediaDock-Setup-R1.6.55.exe",
+    "extensionUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.55-development/MediaDock-Chrome-Extension-R1.6.55.zip",
     "extensionId": "mgknjickielihcigpanjhhpbaldcpolf"
   }
 }
