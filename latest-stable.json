@@ -1,15 +1,15 @@
 {
   "schemaVersion": 3,
   "product": "MediaDock",
-  "version": "R1.6.59",
+  "version": "R1.6.60",
   "channel": "stable",
   "stable": true,
   "windowsRuntimeVerified": true,
   "installerPublished": true,
   "updaterPublished": true,
-  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.59/MediaDock-Setup-R1.6.59.exe",
-  "installerSha256": "38afe9a7a063b2c088beba571bf7446fa8316ad3251e946ea916205b5b84c062",
-  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.59",
+  "installerUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/download/R1.6.60/MediaDock-Setup-R1.6.60.exe",
+  "installerSha256": "461a101816e015bd61c51f2724cd0d44b1e62f3f384278172a08d96c862cf8d1",
+  "releaseNotesUrl": "https://github.com/ajleveriza1108/MediaDock-Release/releases/tag/R1.6.60",
   "minimumSupportedVersion": "R1.6.19",
-  "notes": "MediaDock R1.6.59 adds Downloader-style real-time torrent rates/ETA, .magnet file import and direct torrent/magnet streaming; adjustable media-grabber detection and durable torrent restore remain intact."
+  "notes": "MediaDock R1.6.60 makes large media batches durable with bounded concurrency and automatic retry/fresh analysis, decouples 100 ms torrent telemetry from queue maintenance, adds temporary-cache torrent/magnet streaming with an explicit Add to Torrent Queue action, and makes destructive torrent deletion available only when completed local payload is actually present. Browser grabber, durable torrent persistence and guarded publication remain intact."
 }
